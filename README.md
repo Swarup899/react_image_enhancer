@@ -18,28 +18,6 @@ This project integrates with the **TechHK image enhancement API** to upscale and
 
 ---
 
-## 📂 Project Structure
-react_image_enhancer/
-├── public/                     # Public assets (favicon, etc.)
-├── src/
-│   ├── components/             # UI components
-│   │   ├── Home.jsx
-│   │   ├── ImagePreview.jsx
-│   │   ├── ImageUpload.jsx
-│   │   └── Loading.jsx
-│   ├── utils/                  # Helper functions
-│   │   └── enhanceImageApi.js  # API logic for image enhancement
-│   ├── App.jsx                 # Root React component
-│   ├── index.css               # Global styles
-│   └── main.jsx                # App entry point
-├── .gitignore
-├── README.md
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-└── vite.config.js
-
 ## 🛠️ Tech Stack
 - **Frontend:** React (CRA / Vite)  
 - **API Calls:** Axios + Fetch  
